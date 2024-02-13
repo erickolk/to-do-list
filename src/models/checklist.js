@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+const Task = require("../models/checklist");
 
 checklistSchema = mongoose.Schema({
     name: {type:String, required:true},
